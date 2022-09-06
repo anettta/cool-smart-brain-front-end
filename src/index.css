@@ -1,6 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(89deg, yellowgreen, yellow);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: linear-gradient(89deg, #a4bfef, #6a93cb);
+}
+
+button {
+  cursor: pointer;
 }
