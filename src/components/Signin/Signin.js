@@ -36,11 +36,11 @@ class Signin extends React.Component {
 
   render() {
     return (
-      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+      <article className=" ba b--black-10 sans-serif bg-white mv4 w-100 w-50-m w-25-l mw6  center">
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0">Sign In</legend>
+              <legend className="f1 fw6 ph0 mh0">Welcome</legend>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">
                   Email
@@ -69,7 +69,7 @@ class Signin extends React.Component {
             <div className="">
               <input
                 onClick={this.onSubmitSignIn}
-                className="b ph3 pv2 input-reset tc ba b--black hover-bg-orange bg-orange grow pointer f6 dib"
+                className="ph3 pv2 input-reset white tc ba b--black hover-bg-navy bg-navy grow pointer f6 dib"
                 type="submit"
                 value="Sign in"
               />
@@ -77,7 +77,7 @@ class Signin extends React.Component {
             <div className="lh-copy mt3">
               <p
                 onClick={() => this.props.onRouteChange("register")}
-                className="f6 link dim orange db pointer"
+                className="f6 link dim grey db pointer"
               >
                 No Account? Register!
               </p>
