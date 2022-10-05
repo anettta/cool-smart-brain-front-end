@@ -1,8 +1,17 @@
 .bounding-box {
   position: absolute;
-  box-shadow: 0 0 0 3px #149df2 inset;
+  /* box-shadow: 0 0 0 3px #6a93cb inset; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
+  background-image: url(../Logo/robot.png);
+  background-size: cover;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }

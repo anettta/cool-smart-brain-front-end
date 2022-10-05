@@ -93,6 +93,7 @@ class App extends Component {
     })
       .then((response) => response.json())
       .then((response) => {
+        console.log(response);
         if (response) {
           fetch("https://ancient-oasis-15667.herokuapp.com/image", {
             method: "put",
@@ -105,7 +106,7 @@ class App extends Component {
             .then((count) => {
               this.setState(Object.assign(this.state.user, { entries: count }));
             })
-            .catch(console.log("try again later"));
+            .catch((err) => console.log("try again later"));
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
@@ -133,14 +134,19 @@ class App extends Component {
         {route === "home" ? (
           <div>
             <Logo />
-            <Rank
-              name={this.state.user.name}
-              entries={this.state.user.entries}
-            />
+
             <ImageInputForm
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
             />
+
+            <div>
+              <Rank
+                name={this.state.user.name}
+                entries={this.state.user.entries}
+              />
+            </div>
+
             <FaceRecognition box={box} imageUrl={imageUrl} />
           </div>
         ) : route === "signin" ? (
