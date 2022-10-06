@@ -134,19 +134,16 @@ class App extends Component {
         {route === "home" ? (
           <div>
             <Logo />
-
             <ImageInputForm
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
             />
-
             <div>
               <Rank
                 name={this.state.user.name}
                 entries={this.state.user.entries}
               />
             </div>
-
             <FaceRecognition box={box} imageUrl={imageUrl} />
           </div>
         ) : route === "signin" ? (
