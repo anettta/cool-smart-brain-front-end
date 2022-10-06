@@ -1,72 +1,10 @@
-# Getting Started with Create React App
+Deployed to Heroku: https://cool-smart-brain.herokuapp.com/
 
-add to scripts: "start": "serve -s build"
+Once logged in, try the following image URL: https://www.thelist.com/img/gallery/ways-to-tell-if-youre-really-happy/intro-1494540038.jpg
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screen Shot 2022-10-05 at 9 04 23 PM](https://user-images.githubusercontent.com/28818705/194191655-7a63aeb3-918f-4d00-ac7a-724deafa26c5.png)
+![Screen Shot 2022-10-05 at 9 04 17 PM](https://user-images.githubusercontent.com/28818705/194191671-d2751aac-6fbf-4a22-bb69-5faa6ff5c4de.png)
+![Screen Shot 2022-10-05 at 9 05 11 PM](https://user-images.githubusercontent.com/28818705/194191680-9b4da7ed-3b50-42a5-b800-adbbb662d1a0.png)
+![Screen Shot 2022-10-05 at 9 05 24 PM](https://user-images.githubusercontent.com/28818705/194191700-e17212d1-fbf6-402e-8949-289dc56b5959.png)
+![Screen Shot 2022-10-05 at 9 05 26 PM](https://user-images.githubusercontent.com/28818705/194191705-da7da416-c868-471a-b3ab-b017b32ada6f.png)
